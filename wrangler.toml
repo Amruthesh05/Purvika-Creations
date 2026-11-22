@@ -1,0 +1,21 @@
+name = "styvio"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-01"
+
+[vars]
+SUPERADMIN_EMAIL = "amrutheshkn3@gmail.com"
+VITE_GOOGLE_CLIENT_ID = "584035387493-tg40iggdrqb3hsu6n5j1v43q717g5pmq.apps.googleusercontent.com"
+
+[[d1_databases]]
+binding = "D1_DATABASE"
+database_name = "abc-store-db"
+database_id = "6d60c32c-3978-4e79-bfb9-37937075a6c2"
+
+[[kv_namespaces]]
+binding = "CATALOG_KV"
+id = "a17cf5ea668d4181b68d61cdc18b9a3a"
+# Environment variables (set via dashboard or wrangler secret)
+# SUPERADMIN_EMAIL — email of the first superadmin
+# GOOGLE_CLIENT_ID — Google OAuth client ID for ID token verification
+# APPLE_CLIENT_ID — Apple Sign In service ID for ID token verification
+# SESSION_SECRET — secret for signing session cookies
