@@ -11,7 +11,7 @@ export const HERO_SUBLINE =
 export const HISTORY: { title: string; text: string }[] = [
   {
     title: 'The Origin / The beginning',
-    text: 'Styvio began with a focused standard: eliminate thin, fast-fashion garments and engineer premium, high-density apparel designed to hold its drape and shape over time.',
+    text: 'Keen Node began with a focused standard: eliminate thin, fast-fashion garments and engineer premium, high-density apparel designed to hold its drape and shape over time.',
   },
   {
     title: 'Engineered Quality',

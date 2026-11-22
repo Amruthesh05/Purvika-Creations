@@ -21,7 +21,7 @@ const LAST_UPDATED = 'November 2026';
 const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
   privacy: {
     title: 'Privacy Policy',
-    intro: 'This policy explains what information Styvio collects when you shop with us, how we use it, and the choices you have.',
+    intro: 'This policy explains what information Keen Node collects when you shop with us, how we use it, and the choices you have.',
     sections: [
       {
         heading: 'Information we collect',
@@ -40,7 +40,7 @@ const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
       {
         heading: 'Payments',
         paragraphs: [
-          'Online payments are handled by our payment provider. Styvio does not store your full card details.',
+          'Online payments are handled by our payment provider. Keen Node does not store your full card details.',
         ],
       },
       {
@@ -54,7 +54,7 @@ const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
   },
   terms: {
     title: 'Terms of Service',
-    intro: 'By using the Styvio website and placing an order, you agree to the terms below. Please read them carefully.',
+    intro: 'By using the Keen Node website and placing an order, you agree to the terms below. Please read them carefully.',
     sections: [
       {
         heading: 'Using the site',
@@ -84,7 +84,7 @@ const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
       {
         heading: 'Intellectual property',
         paragraphs: [
-          'The Styvio name, logo, product designs, and site content belong to Styvio. You may not copy or reuse them without written permission.',
+          'The Keen Node name, logo, product designs, and site content belong to Keen Node. You may not copy or reuse them without written permission.',
         ],
       },
       {
@@ -97,7 +97,7 @@ const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
   },
   refunds: {
     title: 'Replacement Policy',
-    intro: 'If your Styvio piece arrives with a manufacturing defect, we will replace it. This page explains what is covered and how to ask for a replacement.',
+    intro: 'If your Keen Node piece arrives with a manufacturing defect, we will replace it. This page explains what is covered and how to ask for a replacement.',
     sections: [
       {
         heading: 'Replacement window',
@@ -129,7 +129,7 @@ const documents: Record<Exclude<LegalPageType, 'brand'>, LegalDocument> = {
 };
 
 const brandContent = {
-  title: 'About Styvio',
+  title: 'About Keen Node',
   intro: 'Premium streetwear built for the heavyweight era.',
   history: HISTORY,
   excellence: EXCELLENCE,
@@ -193,7 +193,7 @@ export function LegalPage() {
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-10 sm:px-6 lg:px-8">
         {pageType === 'brand' ? <BrandView /> : <LegalDocumentView doc={documents[pageType]} />}
         <Link to="/" className="mt-8 inline-flex text-sm font-medium text-flame-300 transition-colors hover:text-flame-400 hover:underline">
-          Back to Styvio
+          Back to Keen Node
         </Link>
       </main>
       <Footer />

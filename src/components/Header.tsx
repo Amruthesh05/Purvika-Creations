@@ -69,7 +69,7 @@ export function Header({ isAdmin = false, user = null }: HeaderProps) {
             <Link to="/cart" className={classNames('relative transition-colors', isActive('/cart') ? 'text-flame-400' : 'text-text-muted hover:text-flame-300')}>
               <ShoppingCart className="h-5 w-5" />
               {itemCount > 0 && (
-                <span className="absolute -top-2 -right-2 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-flame-500 px-1 text-xs font-semibold text-[#141416]">
+                <span className="absolute -top-2 -right-2 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-flame-500 px-1 text-xs font-semibold text-[#1B2A4A]">
                   {itemCount > 99 ? '99+' : itemCount}
                 </span>
               )}
@@ -106,7 +106,7 @@ export function Header({ isAdmin = false, user = null }: HeaderProps) {
             )}
 
             {isAdmin && (
-              <span className="rounded-full bg-flame-500 px-3 py-1 text-xs font-medium text-[#141416]">
+              <span className="rounded-full bg-flame-500 px-3 py-1 text-xs font-medium text-[#1B2A4A]">
                 Admin
               </span>
             )}
@@ -117,7 +117,7 @@ export function Header({ isAdmin = false, user = null }: HeaderProps) {
             <Link to="/cart" className={classNames('relative transition-colors', isActive('/cart') ? 'text-flame-400' : 'text-text-muted')}>
               <ShoppingCart className="h-5 w-5" />
               {itemCount > 0 && (
-                <span className="absolute -top-2 -right-2 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-flame-500 px-1 text-xs font-semibold text-[#141416]">
+                <span className="absolute -top-2 -right-2 flex h-5 min-w-[20px] items-center justify-center rounded-full bg-flame-500 px-1 text-xs font-semibold text-[#1B2A4A]">
                   {itemCount > 99 ? '99+' : itemCount}
                 </span>
               )}

@@ -1,6 +1,11 @@
-name = "styvio"
-pages_build_output_dir = "dist"
+name = "keen-node"
+main = "worker/index.ts"
 compatibility_date = "2024-09-01"
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
 
 [vars]
 SUPERADMIN_EMAIL = "amrutheshkn3@gmail.com"

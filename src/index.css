@@ -8,14 +8,14 @@
   }
 
   html {
-    background: #17171a;
+    background: #0F1B30;
   }
 
   body {
     min-width: 320px;
-    background: #17171a;
-    color: #f4f4f5;
-    background-image: radial-gradient(circle at 50% -10%, rgba(255, 106, 26, 0.12), transparent 34rem);
+    background: #0F1B30;
+    color: #E8D5B7;
+    background-image: radial-gradient(circle at 50% -10%, rgba(232, 213, 183, 0.12), transparent 34rem);
   }
 
   input,
@@ -25,14 +25,14 @@
   }
 
   ::selection {
-    background: #ff6a1a;
-    color: #141416;
+    background: #E8D5B7;
+    color: #1B2A4A;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-flame-500 text-[#141416] shadow-[0_5px_0_#c63d06,0_10px_24px_rgba(255,106,26,0.2)] hover:bg-flame-400 active:translate-y-1 active:shadow-[0_1px_0_#c63d06,0_4px_12px_rgba(255,106,26,0.18)];
+    @apply bg-flame-500 text-[#1B2A4A] shadow-[0_5px_0_#C0AB85,0_10px_24px_rgba(232,213,183,0.2)] hover:bg-flame-400 active:translate-y-1 active:shadow-[0_1px_0_#C0AB85,0_4px_12px_rgba(232,213,183,0.18)];
   }
 }
 
@@ -55,13 +55,13 @@
   .tilt-glow {
     background: radial-gradient(
       320px circle at var(--glow-x, 50%) var(--glow-y, 50%),
-      rgba(255, 138, 61, 0.18),
+      rgba(232, 213, 183, 0.18),
       transparent 60%
     );
   }
 
   .glow-flame {
-    box-shadow: 0 0 0 1px rgba(255, 106, 26, 0.15), 0 8px 30px rgba(255, 106, 26, 0.18);
+    box-shadow: 0 0 0 1px rgba(232, 213, 183, 0.15), 0 8px 30px rgba(232, 213, 183, 0.18);
   }
 
   .custom-print-notice {
@@ -132,7 +132,7 @@
     top: 64px;
     left: 0;
     height: 3px;
-    background: linear-gradient(90deg, #ff6a1a, #ff8a3d);
+    background: linear-gradient(90deg, #E8D5B7, #DBC4A0);
     z-index: 50;
     transform-origin: left;
     transform: scaleX(var(--scroll-p, 0));
@@ -177,7 +177,7 @@
     left: 50%;
     top: 0;
     width: 3px;
-    background: linear-gradient(180deg, #ff6a1a, #ff8a3d);
+    background: linear-gradient(180deg, #E8D5B7, #DBC4A0);
     transform: translateX(-50%);
     height: calc(var(--p, 0) * 100%);
   }
@@ -197,11 +197,11 @@
 
   /* Hero word outline */
   .hero-word {
-    font-size: clamp(6rem, 20vw, 16rem);
+    font-size: clamp(4rem, 16vw, 14rem);
     font-weight: 900;
     letter-spacing: -0.05em;
     color: transparent;
-    -webkit-text-stroke: 2px rgba(255, 106, 26, 0.08);
+    -webkit-text-stroke: 2px rgba(232, 213, 183, 0.08);
     user-select: none;
     pointer-events: none;
   }

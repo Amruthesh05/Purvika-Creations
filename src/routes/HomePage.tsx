@@ -90,7 +90,7 @@ export function HomePage({ user = null }: HomePageProps) {
           <Logo variant="mark" height={400} tone="light" className="opacity-10" />
         </div>
         <div className="parallax-layer absolute inset-0 flex items-center justify-center" style={{ ['--speed' as string]: '-0.08' }}>
-          <span className="hero-word">STYVIO</span>
+          <span className="hero-word">KEEN NODE</span>
         </div>
         <div className="parallax-layer absolute -top-20 -left-20 h-72 w-72 rounded-full bg-flame-500/10 blur-3xl" style={{ ['--speed' as string]: '-0.25' }} />
         <div className="parallax-layer absolute -bottom-20 -right-20 h-96 w-96 rounded-full bg-flame-600/8 blur-3xl" style={{ ['--speed' as string]: '-0.12' }} />

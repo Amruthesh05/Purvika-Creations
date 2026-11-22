@@ -15,7 +15,7 @@ export function Footer() {
               <a href="https://wa.me/8747955704" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-text-muted transition-colors hover:text-flame-300">
                 <MessageCircle className="h-5 w-5" />
               </a>
-              <a href="https://www.instagram.com/styvio.one" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-text-muted transition-colors hover:text-flame-300">
+              <a href="https://www.instagram.com/keennode" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-text-muted transition-colors hover:text-flame-300">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-text-muted transition-colors hover:text-flame-300">
@@ -29,7 +29,7 @@ export function Footer() {
               <Link to="/refunds" className="hover:text-flame-300 hover:underline">Replacement Policy</Link>
             </nav>
             <p className="text-xs text-text-muted">
-              &copy; {new Date().getFullYear()} Styvio. All rights reserved.
+              &copy; {new Date().getFullYear()} Keen Node. All rights reserved.
             </p>
           </div>
         </div>
